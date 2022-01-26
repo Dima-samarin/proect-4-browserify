@@ -1,0 +1,27 @@
+.top__menu {
+	background-color: #0dcaf0;
+}
+.top-menu {
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__item {
+		&:not(:last-child) {
+			margin-right: 41px;
+		}
+	}
+	&__link {
+		color: #fff;
+		padding: 10px 0 10px;
+		line-height: 1.5;
+		text-transform: uppercase;
+		transition: color 0.2s ease-in-out;
+		font-size: 90%;
+		&:hover,
+		&:focus,
+		&.active {
+			color: #f1e8e8;
+		}
+	}
+}

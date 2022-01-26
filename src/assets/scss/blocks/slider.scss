@@ -1,0 +1,75 @@
+.slider {
+  &__item {
+    min-height: 600px;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__text {
+    color: #fff;
+    max-width: 1000px;
+    text-align: center;
+    padding-top: 10%;
+  }
+  &__title {
+    text-transform: uppercase;
+    text-shadow: 0 0 2px $red;
+    margin-bottom: 10px;
+  }
+  &__descr {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 60px;
+  }
+ 
+}
+.slider-btn,.product-slider-btn {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  z-index: 5;
+}
+.slider-btn {
+  top: 30%;
+  transform: translateY(-30%);
+}
+.slider__btn-prev {
+  left: 20px;
+}
+.slider__btn-next {
+  right: 20px;
+}
+.slider__dots {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.slider__dots button {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  transition: background-color;
+  &:hover {
+    background-color: #fff;
+  }
+ 
+}
+.slider__dots li {
+  display: inline-block;
+  padding: 0 5px;
+}
+.slick-active button {
+  background-color: #fff;
+}
+.slick-slide img{
+  display: inherit;
+}
+.slider__btn {
+  display: block;
+  max-width: 250px;
+  margin: 0 auto;
+}

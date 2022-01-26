@@ -1,0 +1,13 @@
+.btn {
+	background-color: $blue;
+	color: $white;
+	text-align: center;
+	padding: 10px 20px 10px;
+	text-transform: uppercase;
+	min-width: 200px;
+	transition: background-color .2s ease-in-out;
+	font-size: 90%;
+	&:hover {
+		background-color: #0d6efd;
+	}
+}

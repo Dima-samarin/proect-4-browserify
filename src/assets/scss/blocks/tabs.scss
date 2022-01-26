@@ -1,0 +1,14 @@
+.tabs-content {
+	display: none;
+}
+.tabs-content.tabs-content--active {
+	display: block;
+}
+.tabs-content.tabs-content--active {
+	display: block;
+}
+.tabs-content.fade {
+	animation-name: fade;
+	animation-duration: 1s;
+}
+

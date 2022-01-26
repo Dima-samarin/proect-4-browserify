@@ -1,0 +1,39 @@
+.request-form {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+  &__header {
+    padding: 20px 30px;
+    background-color: #033fc9;
+    text-align: center;
+  }
+  &__title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 7px;
+  }
+  &__text {
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.4;
+  }
+  &__content {
+    padding: 30px;
+  }
+}
+.form__group {
+  &-input {
+    display: block;
+    width: 100%;
+    font-family: "Intro-Book", sans-serif;
+    color: #f00;
+    margin-bottom: 16px;
+    transition: box-shadow 0.2s ease-in-out;
+    &:focus {
+      outline: none;
+     box-shadow: 0 0 3px #f00;
+    }
+  }
+}
